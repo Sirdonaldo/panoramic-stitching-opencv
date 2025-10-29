@@ -123,7 +123,7 @@ To extend this project:
 ---
 
 ### 🏁 Credits
-Developed by **Donaldson Ajilore**  
+Developed by **Donaldson Ajilore and Jacob Gervais**  
 Course: **COSC 4306 – Computer Graphics I**  
 Instructor Feedback Incorporated: *Comparison of different feature detection algorithms (SIFT, SURF, ORB) to analyze their impact on stitching quality.*
 
