@@ -78,3 +78,26 @@ The project performs automatic image stitching and panorama generation using Ope
 4. **Comparison of Algorithms**  
    - The project compares SIFT and ORB based on the number of matched keypoints, inliers, and visual stitching quality.
 
+
+## 🖼️ Results & Visuals
+
+Below are the outputs generated using different feature detection algorithms (SIFT and ORB) for both street and Golden Gate Bridge panoramas.
+
+### 📍 Street Panorama
+| Algorithm | Panorama Output | Feature Matches |
+|------------|----------------|-----------------|
+| **SIFT** | ![SIFT Panorama](results/pano_sift.jpg) | ![SIFT Matches](results/pano_sift_pair1_matches.jpg) |
+| **ORB** | ![ORB Panorama](results/pano_orb.jpg) | ![ORB Matches](results/pano_orb_pair1_matches.jpg) |
+
+### 🌉 Golden Gate Bridge Panorama
+| Scene | Output |
+|--------|---------|
+| **Golden Gate Panorama** | ![Golden Gate Panorama](results/panorama_bridge.jpg) |
+
+---
+
+### 🔍 Observations
+- **SIFT** produced more accurate alignment and smoother blending, especially in areas with complex textures.  
+- **ORB** was faster but resulted in slightly less precise stitching.  
+- The difference highlights how feature detection choices directly affect panorama quality.
+
