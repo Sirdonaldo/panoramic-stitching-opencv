@@ -27,7 +27,7 @@ NumPy
 
 Pillow (PIL)
 
-# 🗂️ Project Structure
+## 🗂️ Project Structure
 panoramic-stitching-opencv/
 │
 ├── scripts/
