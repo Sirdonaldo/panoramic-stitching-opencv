@@ -101,3 +101,33 @@ Below are the outputs generated using different feature detection algorithms (SI
 - **ORB** was faster but resulted in slightly less precise stitching.  
 - The difference highlights how feature detection choices directly affect panorama quality.
 
+
+## 🧠 Summary & Next Steps
+
+This project successfully demonstrates panoramic image stitching using OpenCV, with a comparison between **SIFT** (Scale-Invariant Feature Transform) and **ORB** (Oriented FAST and Rotated BRIEF) algorithms.
+
+Through experimentation:
+- **SIFT** provided superior accuracy and feature correspondence but required more computational time.
+- **ORB** was computationally efficient but less precise in texture-rich regions.
+- Both methods showed how feature detection influences the homography estimation and overall panorama quality.
+
+---
+
+### 🚀 Next Steps
+To extend this project:
+1. **Add SURF and AKAZE** — evaluate them against SIFT and ORB for accuracy and speed.
+2. **Implement blending techniques** (e.g., multi-band blending) to reduce visible seams.
+3. **Integrate automatic exposure correction** for smoother transitions between images.
+4. **Explore real-time stitching** using video input or a moving camera.
+
+---
+
+### 🏁 Credits
+Developed by **Donaldson Ajilore**  
+Course: **COSC 4306 – Computer Graphics I**  
+Instructor Feedback Incorporated: *Comparison of different feature detection algorithms (SIFT, SURF, ORB) to analyze their impact on stitching quality.*
+
+---
+
+> 💡 *This repository forms part of a broader exploration into computer vision and graphics, illustrating the real-world importance of image feature detection and geometric transformations.*
+
