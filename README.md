@@ -29,20 +29,29 @@ Pillow (PIL)
 
 ## 🗂️ Project Structure
 panoramic-stitching-opencv/
-│
 ├── scripts/
-│   ├── stitch_pano.py          # Base stitching script
-│   └── stitch_compare.py       # Comparison script for SIFT vs ORB
+│ ├── stitch_pano.py # Base stitching script
+│ └── stitch_compare.py # Comparison script for SIFT vs ORB
 │
 ├── input/
-│   ├── Street_Pano/            # Street panorama image set
-│   └── SF_Pano/                # San Francisco panorama image set
+│ ├── Street_Pano/ # Street panorama image set
+│ │ ├── IMG_8660.jpeg
+│ │ ├── IMG_8661.jpeg
+│ │ └── IMG_8662.jpeg
+│ │
+│ └── SF_Pano/ # San Francisco panorama image set
+│ ├── image2.jpeg
+│ ├── image5.jpeg
+│ ├── image6.jpeg
+│ ├── image8.jpeg
+│ └── image11.jpeg
 │
 ├── results/
-│   ├── pano_sift.jpg           # Panorama created using SIFT
-│   ├── pano_orb.jpg            # Panorama created using ORB
-│   ├── pano_sift_pair_matches.jpg  # SIFT feature matches
-│   ├── pano_orb_pair_matches.jpg   # ORB feature matches
-│   └── panorama_bridge.jpg         # Additional Golden Gate panorama
+│ ├── pano_sift.jpg # Panorama created using SIFT
+│ ├── pano_orb.jpg # Panorama created using ORB
+│ ├── pano_sift_pair_matches.jpg # SIFT feature matches
+│ ├── pano_orb_pair_matches.jpg # ORB feature matches
+│ ├── panorama_street.jpg # Final stitched street panorama
+│ └── panorama_bridge.jpg # Additional Golden Gate panorama
 │
 └── README.md
