@@ -58,7 +58,6 @@ panoramic-stitching-opencv/
 │
 └── README.md
 
-```text
 
 ## ⚙️ How It Works
 
